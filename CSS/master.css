@@ -30,11 +30,15 @@ body {
   width: 33px;
   border-radius: 50%;
 }
-
 .board {
+  background-color: #EFEFEF;
+}
+
+.contenedor {
   width: 1000px;
   margin: auto;
   padding-top: 45px;
+
 }
 .contenedor-img-pri {
   display: flex;
@@ -78,4 +82,36 @@ body {
 }
 .cajita{
   width: 317px;
+  word-wrap: break-word;
+}
+.cajita .fecha{
+  text-align: right;
+}
+.pie .contenedor {
+width: 100px;
+  margin: 0 20px;
+}
+
+.pie .botones{
+  width: 350px;
+  margin:20px;
+  padding-top: 37px;
+}
+.pie {
+  display: flex;
+  justify-content: center;
+}
+.botones button{
+  padding: 7px;
+  font-size: 17px;
+}
+
+.firma{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color:#9d9d98;
+}
+.firma p{
+  text-align:center;
 }
