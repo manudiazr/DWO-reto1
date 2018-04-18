@@ -1,4 +1,32 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+.header {
+  background-color: #1C3643;
+  height: 56px;
+}
+.logotipo {
+  margin: auto;
+  margin-left: 15px;
+}
+.logotipo, .menu, .menu li {
+  display: inline-block;
+}
+.menu {
+  position: absolute;
+  left:800px;
+  color: white;
+  font-size: 18px;
+}
+.menu li {
+  margin: 0 10px;
+}
+
 .perfil {
+  position:absolute;
+  top:12px;
+  left:1300px;
   width: 33px;
   border-radius: 50%;
 }
@@ -6,16 +34,48 @@
 .board {
   width: 1000px;
   margin: auto;
+  padding-top: 45px;
+}
+.contenedor-img-pri {
+  display: flex;
 }
 .imgpri {
   width: 1000px;
+  height: 550px;
+}
+.introduccion {
+  position: absolute;
+  top: 350px;
+  margin-left: 25px;
+  padding: 10px;
+  background-color: rgb(255,255,255,0.5);
+  color: #484f47;
+}
+
+.introduccion h2 {
+  margin: 8px 0;
+  font-size: 40px;
+}
+
+.introduccion p {
+  font-size: 22px;
 }
 
 .mosaico{
   display: block;
   justify-content: space-between;
 }
-.mosaico img {
-  width:317px;
 
+.caja {
+  display:flex;
+  justify-content: space-between;
+  margin:20px 0;
+}
+
+.caja img {
+  width:317px;
+  height: 211px;
+}
+.cajita{
+  width: 317px;
 }
