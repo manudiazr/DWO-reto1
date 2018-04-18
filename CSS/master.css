@@ -1,0 +1,21 @@
+.perfil {
+  width: 33px;
+  border-radius: 50%;
+}
+
+.board {
+  width: 1000px;
+  margin: auto;
+}
+.imgpri {
+  width: 1000px;
+}
+
+.mosaico{
+  display: block;
+  justify-content: space-between;
+}
+.mosaico img {
+  width:317px;
+
+}
