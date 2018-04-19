@@ -28,6 +28,20 @@ body {
   margin-right: 20px;
 }
 
+.transitios {
+  transition-duration: 1s ;
+  transition-property: all;
+  transition-timing-function: ease-in;
+}
+.tamaño:hover{
+  text-decoration: underline;
+  font-size: 21px;
+}
+
+.escala:hover{
+  transform: scale(1.2);
+}
+
 .perfil {
   position:absolute;
   top:12px;
@@ -55,7 +69,7 @@ body {
 .introduccion {
   position: absolute;
   top: 350px;
-  margin-left: 25px;
+  margin-left: 66px;
   padding: 10px;
   background-color: rgb(255,255,255,0.5);
   color: #484f47;
