@@ -15,12 +15,17 @@ body {
 }
 .menu {
   position: absolute;
-  left:800px;
+  left:770px;
   color: white;
   font-size: 18px;
 }
 .menu li {
   margin: 0 10px;
+}
+
+.menu li::before{
+  content: "∣";
+  margin-right: 20px;
 }
 
 .perfil {
